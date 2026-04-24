@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <figure class="container">
+            <div class="modal">
+                <button>X</button>
+                <p>
+                    Welcome to my personal website. <br>
+                    I hope you enjoy the experience
+                </p>
+            </div>
+        </figure>
+        <header>
+        <h1>Luis Reyes</h1>
+        <figure class="main_nav">
+            <button class="burger">≡</button>
+            <nav class="block">
+                <button value="profile" class="button">Profile</button>
+                <ul class="dropdown" id="profile">
+                    <li><a href="#about_myself">About Myself</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </nav>
+            <nav class="block">
+                <button value="style" class="button">Style</button>
+                <ul class="dropdown" id="style">
+                    <li><button class="dark_mode">Dark mode</button></li>
+                    <li><button class="classic" disabled>Classic</button></li>
+                </ul>
+            </nav>
+            <nav class="block">
+            <a href="pets.html" class="button">Pets</a>
+            </nav>
+        </figure>
+        </header>
+        <main>
+        <section id="about_myself">
+            <aside>
+                <h2>Profile</h2>
+                <img src="assets/images/profile_picture.jpeg" alt="" class="profile_picture">
+                <p>
+                    I'm a 29-year-old developer currently transitioning into the tech
+                    industry. I'm building my skills in Python, JavaScript, HTML, and
+                    CSS, and working on real-world projects to strengthen my
+                    problem-solving abilities with Riwi Academy. Currently, I'm
+                    developing an ATM system project and improving my backend knowledge
+                    with Python and Git. I'm passionate about continuous learning, clean
+                    code, and building practical applications. Outside of tech, I enjoy
+                    reading manga and watching anime.
+                </p>
+            </aside>
+            <figure>
+            <article class="p1">
+                <h3>Goals</h3>
+                <p>
+                To secure a junior developer position where I can meaningfully
+                contribute to impactful projects, continuously grow as an
+                engineer, and deepen my understanding of building scalable,
+                efficient, and well-architected applications, while collaborating
+                with experienced teams and embracing challenges that push both my
+                technical and professional development forward.
+                </p>
+            </article>
+            <article class="p2">
+                <h3>Currently learning</h3>
+                <p>
+                Currently expanding my skills in backend development with Python,
+                with a strong focus on designing robust REST APIs, improving
+                frontend and backend integration, and applying clean code
+                principles, while also strengthening my workflow through Git and
+                version control best practices to build scalable, maintainable,
+                and high-quality applications
+                </p>
+            </article>
+            <article class="p3">
+                <h3>Tecnologies</h3>
+                <p>
+                I work with Python focused on backend development, applying
+                object-oriented programming principles to build structured,
+                scalable, and maintainable applications. On the frontend, I use
+                HTML, CSS, and JavaScript to create responsive and user-friendly
+                interfaces, enabling seamless integration between client and
+                server.
+                </p>
+            </article>
+            </figure>
+        </section>
+        <section id="projects">
+            <aside>
+                <h2>projects</h2>
+                <p>
+                    Developed various web projects by applying Object-Oriented
+                    Programming (OOP) in Python to build scalable and organized logic,
+                    integrated with HTML, CSS, and JavaScript for responsive and
+                    user-centric design.
+                </p>
+                <img src="assets/images/python.png" alt="" class="python">
+                <img src="assets/images/html_css_js.jpg" alt="" class="python">
+            </aside>
+            <figure>
+                <article class="p1">
+                    <h3>Programming Object-Oriented Proyects</h3>
+                    <ul>
+                        <li><a href="https://github.com/LuisReyes970304/Student_management_system_with_db" target="_blank">Student Management With Database In JSON</a></li>
+                        <li><a href="https://github.com/LuisReyes970304/Inventory_Manager_with_stored_data_in_csv" target="_blank">Inventory Manager In CSV</a></li>
+                        <li><a href="https://github.com/LuisReyes970304/InventoryManager" target="_blank">This is my first project with POO</a></li>
+                    </ul>
+                </article>
+                <article class="p2">
+                    <h3>Landing Page Project</h3>
+                    <ul>
+                        <li><a href="https://github.com/LuisReyes970304/landing_page" target="_blank">This is just a landing page</a></li>
+                        <li><a href="https://github.com/LuisReyes970304/personal_portfolio_html_css" target="_blank">This was my first attempt to do a landing page</a></li>
+                        <li><a href="https://github.com/LuisReyes970304/Presentation">POO presentation</a></li>
+                    </ul>
+                </article>
+                <article class="p3">
+                    <h3>Chatbot Layout Project</h3>
+                    <ul>
+                        <li><a href="https://github.com/LuisReyes970304/chatbot-layout-js" target="_blank">This is a responsive chatbot layout</a></li>
+                        <li><a href="#">This will be a improved better to do it</a></li>
+                        <li><a href="#">Here bellow will be a version that can receive images</a></li>
+                    </ul>
+                </article>
+            </figure>
+        </section>
+        <section id="contact">
+            <aside>
+                <p>
+                I'm always open to new ideas, collaborations, or simply answering your questions. 
+                If there is anything you'd like to discuss or if you have any doubts regarding my work, please don't hesitate to reach out. 
+                You can start a conversation by typing in the Mail-Box to the right, and I'll get back to you as soon as possible.
+                </p>
+                <img src="assets/images/mailbox.png" alt="" class="profile_picture">
+            </aside>
+            <figure>
+                <fieldset class="p4">
+                    <legend><h2>Mail-Box</h2></legend>
+                    <output>
+                        Hello a pleasure, I'm Luis <br>
+                        If you have any question or if you want to know anything else.
+                        Please send me a message with your name and phone number and I'm going to contact you back
+                    </output>
+                    <form action="post" id="chatForm">
+                        <figure class="first">
+                            <input type="text" placeholder="Write your name here...">
+                            <input type="email" placeholder="Write your email here...">
+                            <input type="number" placeholder="Write your phone here...">
+                        </figure>
+                        <figure class="second">
+                            <textarea name="textarea" id="input" placeholder="Write what you want to know..."></textarea>
+                            <button type="submit"><img src="assets/images/send_30dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+                        </figure>
+                    </form>
+                </fieldset>
+            </figure>
+        </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
