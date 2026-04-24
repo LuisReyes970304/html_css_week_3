@@ -389,7 +389,7 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     body {
         display: flex;
         flex-direction: column;
@@ -481,7 +481,7 @@ body {
     }
 }
 
-@media (max-width: 770) {
+@media (min-width: 770px) and (max-width: 992px){
     body {
         .container {
             display: none;

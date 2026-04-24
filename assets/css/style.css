@@ -395,7 +395,7 @@ body main section figure .p4 form .second button img {
   height: 90%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   body {
     display: flex;
     flex-direction: column;
@@ -486,7 +486,7 @@ body main section figure .p4 form .second button img {
     gap: 10px;
   }
 }
-@media (max-width: 770) {
+@media (min-width: 770px) and (max-width: 992px) {
   body .container {
     display: none;
   }
