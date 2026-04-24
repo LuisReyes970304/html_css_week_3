@@ -43,12 +43,14 @@ body {
             flex-direction: column;
             align-items: end;
             text-align: center;
-            font-size: 90px;
+            font-size: 50px;
             background-color: var(--btn);
             padding: 20px;
             color: var(--p-color);
             border-radius: 15px;
             box-shadow: 5px 5px 15px 15px var(--effect);
+            width: 50%;
+            height: 50%;
             &:hover {
                 color: white;
                 background: #3279bb;

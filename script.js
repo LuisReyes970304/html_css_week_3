@@ -7,14 +7,6 @@ burger.addEventListener("click", () => {
     });
 });
 
-const container = document.querySelector(".container");
-const modal = document.querySelector(".modal");
-const closeBtn = modal.querySelector("button");
-
-closeBtn.addEventListener("click", () => {
-    container.style.display = "none";
-});
-
 const mainNav = document.querySelector('.main_nav');
 const dropdown = document.querySelectorAll('.dropdown');
 const header_btn = document.querySelectorAll('.button');
@@ -83,6 +75,14 @@ chatForm.addEventListener("submit", (e) => {
         let appointment = document.createElement("a");
         
     }
+});
+
+const container = document.querySelector(".container");
+const modal = document.querySelector(".modal");
+const closeBtn = modal.querySelector("button");
+
+closeBtn.addEventListener("click", () => {
+    container.style.display = "none";
 });
 
 
